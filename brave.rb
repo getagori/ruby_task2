@@ -1,4 +1,5 @@
 require './character'
+
 class Brave < Character
     def attack(monster)
         puts "#{@name}の攻撃！"

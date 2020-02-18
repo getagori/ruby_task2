@@ -1,6 +1,6 @@
-require './status'
+require './character'
 
-class Monster < Status
+class Monster < Character
     def attack(brave)
         puts "#{@name}の攻撃！"
         damage = @offence - brave.defence
